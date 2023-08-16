@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Dela";
+  src: url("../../fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.backgroundContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  text-align: left;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.name {
+  font-family: "Dela";
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.desc {
+  font-family: "Inter";
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+
+.navButtons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .desc {
+    margin-left: 0rem;
+  }
+  .navButtons {
+    right: 40px;
+  }
+}
