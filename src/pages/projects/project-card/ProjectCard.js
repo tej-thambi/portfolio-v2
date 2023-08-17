@@ -13,9 +13,11 @@ const ProjectCard = ({ link, image, title, description, tech }) => {
         <div className={styles.background}>
           <div className={styles.card}>
             <img src={image} alt={title} className={styles.projectImage} />
-            <h2 className={styles.projectTitle}>{title}</h2>
-            <p className={styles.projectDescription}>{description}</p>
-            <p className={styles.techUsed}>Tech: {tech}</p>
+            <div className={styles.text}>
+              <h2 className={styles.projectTitle}>{title}</h2>
+              <p className={styles.projectDescription}>{description}</p>
+              <p className={styles.techUsed}>Tech: {tech}</p>
+            </div>
           </div>
         </div>
       </a>

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Dela";
+  src: url("../../fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.backgroundContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header {
+  position: absolute;
+  top: 10%;
+  left: 5rem;
+  text-align: left;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.name {
+  font-family: "Dela";
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactButton {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  background-color: transparent;
+  border: 5px solid white;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.contactButton:hover {
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+
+.icon {
+  color: white;
+  font-size: 24px;
+}
+
+.navButtons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .buttons {
+    position: absolute;
+    top: 10rem;
+    left: 13.3rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .contactButton {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: 5px solid white;
+    margin-top: -3rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .desc {
+    margin-left: 0rem;
+  }
+  .navButtons {
+    text-align: center;
+  }
+}

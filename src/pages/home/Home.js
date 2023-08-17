@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Home.module.css";
 import Typewriter from "typewriter-effect";
-import mountain from "../../images/mountain.jpg";
+import mountain from "../../images/mountain4.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,10 +22,18 @@ const Home = () => {
         </div>
       </div>
       <div className={styles.navButtons}>
-        <button className={styles.navButton}>HOME</button>
-        <button className={styles.navButton}>PROJECTS</button>
-        <button className={styles.navButton}>RESUME</button>
-        <button className={styles.navButton}>ABOUT</button>
+        <Link to="/">
+          <button className={styles.navButton}>HOME</button>
+        </Link>
+        <Link to="/projects">
+          <button className={styles.navButton}>PROJECTS</button>
+        </Link>
+        <Link to="/resume">
+          <button className={styles.navButton}>RESUME</button>
+        </Link>
+        <Link to="/contact">
+          <button className={styles.navButton}>CONTACT</button>
+        </Link>
       </div>
     </div>
   );

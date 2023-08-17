@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.background {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  padding: 1rem;
+  font-family: "Inter";
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.background:hover {
+  transform: translateY(-10px);
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+.company {
+  font-size: 3rem;
+}
+.title {
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+.resumeImage {
+  height: 3rem;
+  cursor: pointer;
+}
+.imageLink {
+  color: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .background {
+    max-width: 300px;
+  }
+}

@@ -7,11 +7,13 @@
 }
 
 .backgroundContainer {
-  position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url("../../images/mountain2.jpg");
+  background-size: cover;
+  /* background-repeat: repeat; */
+  background-position: center;
   overflow: hidden;
-  background-color: #041631;
 }
 
 .header {
@@ -32,16 +34,28 @@
   margin-bottom: 0rem;
 }
 
-.projectCards {
-  /* position: absolute;
-  top: 10%;
-  left: 0; */
+.stock {
+  position: absolute;
+  top: 10rem;
+  left: 15rem;
+  margin-left: 2rem;
 }
-
 .eat {
   position: absolute;
-  top: 30%;
-  left: 0%;
+  top: 44rem;
+  left: 15rem;
+  margin-left: 2rem;
+}
+.bswipe {
+  position: absolute;
+  top: 40rem;
+  left: 45rem;
+  margin-left: 2rem;
+}
+.bwalk {
+  position: absolute;
+  top: 10rem;
+  left: 45rem;
   margin-left: 2rem;
 }
 
@@ -62,9 +76,13 @@
   cursor: pointer;
 }
 
+.padding {
+  padding-bottom: 74rem;
+}
+
 @media (max-width: 768px) {
   .navButtons {
-    right: 40px;
+    text-align: center;
   }
   .name {
     font-size: 2rem;
@@ -74,16 +92,44 @@
     text-align: center;
     margin-left: 0rem;
   }
-  .eat {
-    position: unset;
-    top: 0%;
-    left: 0%;
-    margin-left: 2rem;
-  }
   .projectCards {
     display: flex;
     flex-direction: column;
     margin-top: 10rem;
     margin-right: 1.5rem;
+  }
+  .eat {
+    position: unset;
+    top: 0%;
+    left: 0%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .bwalk {
+    position: unset;
+    top: 0%;
+    left: 0%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .stock {
+    position: unset;
+    top: 0%;
+    left: 0%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .bswipe {
+    position: unset;
+    top: 0%;
+    left: 0%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .padding {
+    padding-bottom: 5rem;
+  }
+  .backgroundImage {
+    height: 100vh;
   }
 }

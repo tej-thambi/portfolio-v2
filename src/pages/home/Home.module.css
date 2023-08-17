@@ -72,7 +72,7 @@
 @media (max-width: 768px) {
   .header {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -82,10 +82,7 @@
   .name {
     font-size: 2.5rem;
   }
-  .desc {
-    margin-left: 0rem;
-  }
   .navButtons {
-    right: 40px;
+    text-align: center;
   }
 }

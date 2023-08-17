@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Dela";
+  src: url("../../fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.backgroundContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../images/mountain3.jpg");
+  background-size: cover;
+  /* background-repeat: repeat; */
+  background-position: center;
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  text-align: left;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.name {
+  font-family: "Dela";
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.ucla {
+  position: absolute;
+  top: 10rem;
+  left: 0rem;
+  margin-left: 2rem;
+}
+.churchill {
+  position: absolute;
+  top: 25rem;
+  left: 0rem;
+  margin-left: 2rem;
+}
+.uvm {
+  position: absolute;
+  top: 10rem;
+  left: 42rem;
+  margin-left: 2rem;
+}
+.poppin {
+  position: absolute;
+  top: 28rem;
+  left: 42rem;
+  margin-left: 2rem;
+}
+.fc {
+  position: absolute;
+  top: 46rem;
+  left: 42rem;
+  margin-left: 2rem;
+}
+.aires {
+  position: absolute;
+  top: 64rem;
+  left: 42rem;
+  margin-left: 2rem;
+}
+
+.navButtons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.padding {
+  padding-bottom: 85rem;
+}
+
+@media (max-width: 768px) {
+  .navButtons {
+    text-align: center;
+  }
+  .name {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  .header {
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .resumeCards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    /* margin-right: 1.5rem; */
+    margin-left: 0.5rem;
+  }
+  .ucla {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .churchill {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .uvm {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .poppin {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .fc {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .aires {
+    position: unset;
+    top: 0rem;
+    left: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .padding {
+    padding-bottom: 5rem;
+  }
+}
