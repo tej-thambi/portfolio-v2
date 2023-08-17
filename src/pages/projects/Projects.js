@@ -5,6 +5,7 @@ import eatImage from "../../images/eat2.png";
 import bswipeImage from "../../images/bswipe.png";
 import bwalkImage from "../../images/bwalk.png";
 import stockImage from "../../images/stock-sage.png";
+import portImage from "../../images/port.png";
 import { Link } from "react-router-dom";
 // import mountain2 from "../../images/mountain2.jpg";
 
@@ -41,6 +42,13 @@ const Projects = () => {
     description:
       "Stock Sage is a web app designed to help users stay ahead of the market. Stock Sage tracks stock market data, makes machine learning powered predictions about the next four years, and gathers all the latest financial news. Stock Sage: Your all-in-one stock market companion.",
     tech: "Python3, Streamlit, Prophet, Marketaux API",
+  };
+
+  const port = {
+    link: "https://github.com/tej-thambi/portfolio-v2",
+    image: portImage,
+    title: "Portfolio",
+    tech: "React, CSS",
   };
 
   return (
@@ -83,6 +91,14 @@ const Projects = () => {
             title={bswipe.title}
             description={bswipe.description}
             tech={bswipe.tech}
+          />
+        </div>
+        <div className={styles.port}>
+          <ProjectCard
+            link={port.link}
+            image={port.image}
+            title={port.title}
+            tech={port.tech}
           />
         </div>
       </div>
