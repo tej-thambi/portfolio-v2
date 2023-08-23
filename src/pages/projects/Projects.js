@@ -29,7 +29,7 @@ const Projects = () => {
   const bwalk = {
     link: "https://github.com/classjek/bruinwalk_linguistic_analysis",
     image: bwalkImage,
-    title: "Computational Liniguistic Analysis of Bruinwalk",
+    title: "Computational Linguistic Analysis of Bruinwalk",
     description:
       "A Machine Learning powered analysis of UCLA’s professor review system, Bruinwalk, to analyze trends in reviews",
     tech: "Tools: Python, Tensorflow keras, Word2Vec, Google Cloud Platform",
@@ -111,6 +111,9 @@ const Projects = () => {
         </Link>
         <Link to="/resume">
           <button className={styles.navButton}>RESUME</button>
+        </Link>
+        <Link to="/photography">
+          <button className={styles.navButton}>PHOTOGRAPHY</button>
         </Link>
         <Link to="/contact">
           <button className={styles.navButton}>CONTACT</button>

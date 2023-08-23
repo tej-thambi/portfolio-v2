@@ -15,41 +15,12 @@
 }
 
 .backgroundContainer {
-  position: relative;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.backgroundImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.header {
-  position: absolute;
-  top: 10%;
-  left: 0;
-  text-align: left;
-  width: 100%;
-  margin-left: 2rem;
-}
-
-.name {
-  font-family: "Dela";
+  min-height: 100vh;
+  background-color: black;
   color: white;
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin-bottom: 0rem;
-}
-
-.desc {
-  font-family: "Inter";
-  color: white;
-  font-size: 1rem;
-  margin-left: 0.2rem;
+  background-size: cover;
+  background-position: center;
 }
 
 .navButtons {
@@ -69,24 +40,28 @@
   cursor: pointer;
 }
 
+.gallery {
+  padding: 5rem;
+}
+
+.images {
+  text-align: center;
+}
+
+.padding {
+  padding-bottom: 74rem;
+}
+
 @media (max-width: 768px) {
-  .header {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-    margin-left: 0rem;
-  }
-  .name {
-    font-size: 2.5rem;
-  }
   .navButtons {
     text-align: center;
     gap: 5px;
   }
   .navButton {
     font-size: 12px;
+  }
+
+  .padding {
+    padding-bottom: 5rem;
   }
 }

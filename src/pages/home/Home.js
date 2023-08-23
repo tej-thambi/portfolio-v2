@@ -31,6 +31,9 @@ const Home = () => {
         <Link to="/resume">
           <button className={styles.navButton}>RESUME</button>
         </Link>
+        <Link to="/photography">
+          <button className={styles.navButton}>PHOTOGRAPHY</button>
+        </Link>
         <Link to="/contact">
           <button className={styles.navButton}>CONTACT</button>
         </Link>

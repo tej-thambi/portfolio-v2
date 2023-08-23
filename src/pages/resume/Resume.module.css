@@ -94,6 +94,10 @@
 @media (max-width: 768px) {
   .navButtons {
     text-align: center;
+    gap: 5px;
+  }
+  .navButton {
+    font-size: 12px;
   }
   .name {
     font-size: 2rem;

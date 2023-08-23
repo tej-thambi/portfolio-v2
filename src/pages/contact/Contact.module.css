@@ -126,5 +126,9 @@
   }
   .navButtons {
     text-align: center;
+    gap: 5px;
+  }
+  .navButton {
+    font-size: 12px;
   }
 }
