@@ -67,6 +67,12 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navButton:hover {
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -84,9 +90,9 @@
   }
   .navButtons {
     text-align: center;
-    gap: 5px;
+    gap: 0px;
   }
   .navButton {
-    font-size: 12px;
+    font-size: 10px;
   }
 }

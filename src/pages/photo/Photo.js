@@ -65,11 +65,11 @@ const Photo = () => {
     },
     {
       src: img12,
-      description: "Shanghai, 2014",
+      description: "Burlington, 2023",
     },
     {
       src: img13,
-      description: "Burlington, 2023",
+      description: "Shanghai, 2014",
     },
     {
       src: img14,
