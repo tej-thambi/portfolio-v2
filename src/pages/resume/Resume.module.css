@@ -53,19 +53,19 @@
 }
 .poppin {
   position: absolute;
-  top: 28rem;
+  top: 30.5rem;
   left: 42rem;
   margin-left: 2rem;
 }
 .fc {
   position: absolute;
-  top: 46rem;
+  top: 49.5rem;
   left: 42rem;
   margin-left: 2rem;
 }
 .aires {
   position: absolute;
-  top: 64rem;
+  top: 67.5rem;
   left: 42rem;
   margin-left: 2rem;
 }
@@ -94,7 +94,7 @@
 }
 
 .padding {
-  padding-bottom: 85rem;
+  padding-bottom: 87rem;
 }
 
 @media (max-width: 768px) {

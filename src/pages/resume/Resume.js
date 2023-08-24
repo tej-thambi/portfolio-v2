@@ -12,8 +12,15 @@ const Resume = () => {
   const uvm = {
     company: "Vermont Conversation Lab",
     title: "Machine Learning Intern",
-    description:
-      "Writing software to conduct computational linguistics analyses on psychedelic assisted therapy sessions to draw conclusions about awe, and writing machine learning models to detect awe",
+    description: (
+      <div>
+        Wrote software to conduct computational linguistics analyses on
+        psychedelic assisted therapy sessions to draw conclusions about awe and
+        how it manifests in speech using natural language processing <br />
+        Developed machine learning models using PyTorch, scikit learn, and
+        TensorFlow to detect awe based on speech patterns
+      </div>
+    ),
     image: uvmImage,
     link: "https://vermontconversationlab.com/",
   };
@@ -22,10 +29,11 @@ const Resume = () => {
     title: "Software Engineering Intern",
     description: (
       <div>
-        Developing web version of Poppin app using Vite, TypeScript, and React{" "}
+        Collaborating with other engineers on fullstack development of Poppin’s
+        web app using TypeScript, React, and Firebase
         <br />
-        Learning about software development life cycle and collaborating with
-        other developers
+        Cultivating a seamless user interface and user experience by optimizing
+        functionality and fine-tuning interactions
       </div>
     ),
     image: poppinImage,
@@ -36,9 +44,11 @@ const Resume = () => {
     title: "Junior Developer",
     description: (
       <div>
-        Developing push-notification system using TypeScript and React Native to
-        increase user engagement <br />
-        Learning about startup environment while contributing to growth
+        Developing push-notification system utilizing TypeScript and React
+        Native to increase user engagement
+        <br />
+        Gaining insights into startup dynamics while propelling growth through
+        contributions to marketing and business
       </div>
     ),
     image: fcImage,
@@ -49,10 +59,9 @@ const Resume = () => {
     title: "Director of Marketing",
     description: (
       <div>
-        Attends and facilitates weekly discussions about AI and its role in
-        society <br />
-        Manages newsletter with members to share new developments explore new
-        ideas in AI
+        Manages newsletter with members to share new developments and facilitate
+        discussion about AI <br />
+        Developing projects using Machine Learning
       </div>
     ),
     image: airesImage,
