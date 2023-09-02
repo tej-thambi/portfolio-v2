@@ -81,7 +81,7 @@
 
 .navButton {
   background-color: transparent;
-  border: none;
+  border: 1px solid white;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -100,7 +100,7 @@
 @media (max-width: 768px) {
   .navButtons {
     text-align: center;
-    gap: 0px;
+    gap: 2px;
   }
   .navButton {
     font-size: 10px;

@@ -8,20 +8,28 @@ import img3 from "./photos/IMG_0871.jpg";
 import img4 from "./photos/IMG_2575.jpg";
 import img5 from "./photos/IMG_0172.jpg";
 import img6 from "./photos/IMG_0377.jpg";
-import img7 from "./photos/IMG_4257.jpg";
+// import img7 from "./photos/IMG_4257.jpg";
 import img8 from "./photos/IMG_8647.jpg";
-import img9 from "./photos/IMG_0156.jpg";
+// import img9 from "./photos/IMG_0156.jpg";
 import img10 from "./photos/IMG_9666.jpg";
 import img11 from "./photos/IMG_9864.jpg";
 import img13 from "./photos/IMG_1927.jpg";
 import img12 from "./photos/IMG_0123.jpg";
 import img14 from "./photos/IMG_0070.jpg";
+import img15 from "./photos/IMG_0305.jpg";
+import img16 from "./photos/IMG_0306.jpg";
+import img17 from "./photos/IMG_7860.jpg";
+import img18 from "./photos/IMG_7889.jpg";
 
 const Photo = () => {
   const images = [
     {
       src: img1,
       description: "Burlington, 2023",
+    },
+    {
+      src: img18,
+      description: "Iceland, 2022",
     },
     {
       src: img2,
@@ -44,20 +52,32 @@ const Photo = () => {
       description: "London, 2023",
     },
     {
-      src: img7,
-      description: "New York, 2020",
+      src: img15,
+      description: "Edgartown, 2023",
     },
+    // {
+    //   src: img7,
+    //   description: "New York, 2020",
+    // },
     {
       src: img8,
       description: "Los Angeles, 2022",
     },
     {
-      src: img9,
-      description: "Burlington, 2023",
+      src: img16,
+      description: "Edgartown, 2023",
     },
+    // {
+    //   src: img9,
+    //   description: "Burlington, 2023",
+    // },
     {
       src: img10,
       description: "London, 2023",
+    },
+    {
+      src: img17,
+      description: "Iceland, 2022",
     },
     {
       src: img11,
