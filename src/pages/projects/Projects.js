@@ -6,6 +6,7 @@ import bswipeImage from "../../images/bswipe.png";
 import bwalkImage from "../../images/bwalk.png";
 import stockImage from "../../images/stock-sage.png";
 import portImage from "../../images/port.png";
+import aweImage from "../../images/vcl-awe.png";
 import { Link } from "react-router-dom";
 // import mountain2 from "../../images/mountain2.jpg";
 
@@ -51,12 +52,30 @@ const Projects = () => {
     tech: "React, CSS",
   };
 
+  const awe = {
+    link: "https://vermontconversationlab.com/",
+    image: aweImage,
+    title: "The Awe Project",
+    description:
+      "A research project at the Vermont Conversation Lab, where I researched awe using data from psychedelic assisted therapy sessions. I analyzed moments of awe using natural language processing tools to look at linguistic patterns and compare them to moments of non awe. I also wrote machine learning models that predict whether a given moment is awe or not.",
+    tech: "Python, TensorFlow, scikit learn, PyTorch, NLTK",
+  };
+
   return (
     <div className={styles.backgroundContainer}>
       <div className={styles.header}>
         <h1 className={styles.name}>PROJECTS</h1>
       </div>
       <div className={styles.projectCards}>
+        <div className={styles.awe}>
+          <ProjectCard
+            link={awe.link}
+            image={awe.image}
+            title={awe.title}
+            description={awe.description}
+            tech={awe.tech}
+          />
+        </div>
         <div className={styles.eat}>
           <ProjectCard
             link={eat.link}

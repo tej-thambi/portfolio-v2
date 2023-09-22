@@ -40,6 +40,12 @@
   left: 5rem;
   margin-left: 2rem;
 }
+.awe {
+  position: absolute;
+  top: 10rem;
+  left: 31rem;
+  margin-left: 2rem;
+}
 .eat {
   position: absolute;
   top: 10rem;
@@ -48,14 +54,14 @@
 }
 .bswipe {
   position: absolute;
-  top: 40rem;
+  top: 42rem;
   left: 31rem;
   margin-left: 2rem;
 }
 .bwalk {
   position: absolute;
-  top: 10rem;
-  left: 31rem;
+  top: 33.5rem;
+  left: 57rem;
   margin-left: 2rem;
 }
 .port {
@@ -113,6 +119,13 @@
     flex-direction: column;
     margin-top: 10rem;
     margin-right: 1.5rem;
+  }
+  .awe {
+    position: unset;
+    top: 0%;
+    left: 0%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
   }
   .eat {
     position: unset;
